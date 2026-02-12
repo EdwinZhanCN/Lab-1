@@ -1,0 +1,5 @@
+,Model,Pipeline,Param,F1,Recall 0,Recall 1,Threshold,
+Round 1,SGD,Hinge loss,"Alpha: [0.0001, 0.001, 0.01]",0.4662,0.84,0.37,0.5,
+Round 2,SGD Calib,Hinge loss,"Alpha: [0.0001, 0.001, 0.01]",0.3282,0.93,0.22,0.5,
+Round 3,SGD,Hinge loss (weight balanced),"Alpha: [1e-5, 1e-4, 1e-3]",0.5932,0.67,0.62,0.5,
+Round 4,SGD Calib,Hinge loss (weight balanced),"Alpha: [1e-5, 1e-4, 1e-3]",0.0678,0.99,0.04,0.5,
